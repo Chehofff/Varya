@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Made Soma</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            color: #4a2c2a;
+            margin: 0;
+            padding: 0;
+            background-image: url('back.jpg'); /* Фоновое изображение */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        header {
+            background-color: rgba(139, 0, 0, 0.8); /* Прозрачный фон */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(74, 44, 42, 0.8); /* Прозрачный фон */
+            padding: 10px;
+        }
+        nav a {
+            background-color: #8b0000;
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        nav a:hover {
+            background-color: #6b0000;
+        }
+        nav a:active {
+            transform: scale(0.95); /* Эффект нажатия */
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Прозрачный фон */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .image-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .main-image, .section-image {
+            height: 200px;
+            width: auto;
+            border-radius: 10px;
+        }
+        h1, h2 {
+            color: #8b0000;
+        }
+        p {
+            line-height: 1.6;
+            margin: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(74, 44, 42, 0.8); /* Прозрачный фон */
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Hand Made Soma</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Uz sākumlapu</a>
+        <a href="#about">Par autoru</a>
+        <a href="#history">Par rokdarbu vēsturi Latvijā</a>
+        <a href="#ornaments">Par latviešu tautas ornamentiem</a>
+    </nav>
+
+    <div class="container" id="home">
+        <div class="image-container">
+            <img src="sumka.jpg" alt="Vārda Soma" class="main-image">
+            <div>
+                <h2>Vārda Soma</h2>
+                <p>Šī soma ir tradīciju un roku darba meistarības savienojums. Tā ir adīta no baltas dzijas, bet bordo apmale un rokturis piešķir tai izteiksmīgumu. Galvenais rotājums ir latviešu ornaments, kas izveidots no bordo auduma, kas uzsver etnisko stilu. Iekšpusē soma ir izklāta ar baltu audumu, padarot to ērtāku un praktiskāku. Šī nav tikai soma, bet unikāla lieta, kas radīta ar mīlestību pret detaļām.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="about">
+        <div class="image-container">
+            <img src="varja.jpg" alt="Varvara Grjazniha" class="section-image">
+            <div>
+                <h2>Par autoru</h2>
+                <p>Varvara Grjazniha ir talantīga rokdarbu meistare, kura savā darbā apvieno tradicionālās metodes un moderno dizainu. Viņas darbi atspoguļo dziļu cieņu pret latviešu kultūru un tradīcijām. Varvara ir izveidojusi unikālu somu kolekciju, kas ir ne tikai funkcionāla, bet arī skaista un pilna vēstures.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="history">
+        <div class="image-container">
+            <img src="girl.jpg" alt="Rokdarbu vēsture Latvijā" class="section-image">
+            <div>
+                <h2>Par rokdarbu vēsturi Latvijā</h2>
+                <p>Rokdarbi Latvijā ir bijuši nozīmīga kultūras daļa jau gadsimtiem ilgi. Tradicionālie adīšanas un auduma tehnikas ir nodotu no paaudzes paaudzē, saglabājot unikālo latviešu identitāti. Rokdarbi nav tikai praktiski priekšmeti, bet arī mākslas veids, kas atspoguļo cilvēku saikni ar dabu un tradīcijām.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="ornaments">
+        <div class="image-container">
+            <img src="ornament.jpg" alt="Latviešu tautas ornamenti" class="section-image">
+            <div>
+                <h2>Par latviešu tautas ornamentiem</h2>
+                <p>Latviešu tautas ornamenti ir daudzveidīgi un simboliski. Tie bieži atspoguļo dabas elementus, kā saule, zvaigznes un augi. Katram ornamentam ir sava nozīme un vēsture, kas padara tos ne tikai skaistus, bet arī bagātus ar kultūras nozīmi. Šie ornamenti tiek izmantoti dažādos rokdarbos, tostarp adīšanā, audumos un rotājumos.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Varvara Grjazniha. Visas tiesības aizsargātas.</p>
+    </footer>
+
+</body>
+</html>
